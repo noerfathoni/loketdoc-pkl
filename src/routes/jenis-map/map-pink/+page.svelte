@@ -1,0 +1,1 @@
+<h1 class="title">Map Merah Muda</h1>

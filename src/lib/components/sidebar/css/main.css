@@ -1,0 +1,40 @@
+.sidebar {
+  @apply w-56 pb-12 bg-gray-800 fixed top-12 h-full left-0 text-white text-xs overflow-y-auto;
+}
+
+.sidebar ul {
+  @apply pt-0 mt-0;
+}
+
+.sidebar li a {
+  @apply px-2 py-2 font-semibold flex flex-row items-center text-white;
+}
+
+.sidebar li a:hover {
+  @apply bg-gray-700 text-white;
+}
+
+.sidebar li a.active {
+  @apply bg-gray-700 text-white;
+}
+
+.sidebar .sidebar-submenu {
+  @apply ml-5 border-l border-l-gray-700;
+}
+
+.sidebar .sidebar-submenu li a {
+  @apply font-medium flex flex-row items-center;
+}
+
+.sidebar .sidebar-submenu li a i {
+  @apply text-white;
+}
+
+.sidebar .sidebar-submenu li a:hover {
+  @apply bg-gray-700;
+}
+
+.sidebar .sidebar-submenu li a.active {
+  @apply bg-gray-700;
+}
+

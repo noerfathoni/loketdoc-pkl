@@ -1,0 +1,11 @@
+.footer {
+  @apply w-full flex flex-row h-12 top-0 bg-gray-900 justify-center items-center px-2;
+}
+
+.footer .footer-text {
+  @apply text-white text-sm font-semibold;
+}
+
+.footer.has-sidebar {
+  @apply ml-56;
+}

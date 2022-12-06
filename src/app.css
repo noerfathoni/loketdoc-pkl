@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+
+* {
+  @apply text-gray-900;
+}
+
+.jenis-map-container {
+  @apply flex flex-row w-full md:w-10/12;
+}
+
+.jenis-map-container .section {
+  @apply p-5;
+}
+
+.jenis-map-container .title {
+  @apply font-bold text-xl mb-2;
+}
+
+.jenis-map-container .body {
+
+}
+
+.detail h1.title {
+  @apply text-xl border-b py-4 flex flex-row items-center;
+}
+
+.detail h1.title i {
+  @apply mr-2 text-xl;
+}
+
+.detail {
+  line-height: 2;
+}
+
+.detail h3 {
+  @apply font-bold bg-gray-100 px-2 py-1 mb-1 mt-4;
+}
+
+.detail .doc-requirements ul li,
+.detail .checklist ul li {
+  @apply text-sm font-semibold px-2 py-1 mb-1;
+}
+
+.detail .doc-requirements ul li i,
+.detail .checklist ul li i {
+  @apply mr-2 bg-blue-500 text-white rounded p-1;
+}
+
+.detail .action {
+  @apply w-full flex flex-row flex-wrap;
+}
+
+.detail .cost .cost-detail,
+.detail .duration .duration-detail {
+  @apply border rounded px-4 py-4 mb-1 text-lg font-bold;
+}
+
+
+
+@tailwind utilities;

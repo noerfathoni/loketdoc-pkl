@@ -1,0 +1,38 @@
+[Menu-Menu]
+- Beranda
+    > Hanya sebuah tulisan dan tombol mengarah ke Jenis Map
+- Jenis Map
+    > Terdiri 2 sisi, A. Semua Jenis dan B. Detail
+    > Menggunakan slug pada router svelte
+    > Ada fitur pencarian
+    > Di halaman index terdapat pilihan MAP dengan bentuk GRID(?)
+        * Sisi A : Semua Jenis
+            [1] Map Biru 
+                (Roya)                
+                ...
+            [2] Map Kuning
+                (Peningkatan Hak)
+                ...
+            [3] Map Merah
+                (Waris)
+                ...
+            [4] Map Hijau
+                (Pecah)
+                ...
+            [x] ....
+                (...)
+                ...
+        * Sisi B : Detail
+            Isinya:
+            [1] Istilah dalam KKP2
+            [2] Syarat-Syarat Berkas
+            [3] Biaya
+            [4] Form yang harus diisi dalam KKP2 dan tekniknya
+            [5] FAQ berisi kesalahan yang masih bisa dilanjutkan / harus dikembalikan
+            [6] Kalkulator jika ada penghitungan
+            [7] Terdapat tombol cetak untuk dokumen yang bisa diserahkan pemohon
+                >> Lampiran 13
+                >> Syarat-syarat dalam dokumen 
+- Tentang
+    > Tentang Web
+    > Kontributor
