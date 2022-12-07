@@ -21,6 +21,15 @@
 
 }
 
+.jenis-map-container .two-column {
+  @apply flex flex-row;
+}
+
+.jenis-map-container .section-l,
+.jenis-map-container .section-r {
+  @apply w-1/2 flex flex-col p-4;
+}
+
 .detail h1.title {
   @apply text-xl border-b py-4 flex flex-row items-center;
 }
@@ -53,9 +62,27 @@
 
 .detail .cost .cost-detail,
 .detail .duration .duration-detail {
-  @apply border rounded px-4 py-4 mb-1 text-lg font-bold;
+  @apply p-2 mb-1 text-sm font-bold;
 }
 
+.detail .cost .cost-formula {
+  @apply rounded-sm border p-3 mb-4;
+}
 
+.detail .cost .cost-total {
+  @apply rounded-sm border p-3 mb-4 text-xl;
+}
+
+.form-group {
+  @apply flex flex-col mx-2;
+}
+
+.form-group label {
+  @apply mb-1;
+}
+
+.form-group input {
+  @apply bg-gray-50 outline-none border rounded-sm px-2 py-2 mb-3;
+}
 
 @tailwind utilities;
